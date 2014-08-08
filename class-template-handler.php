@@ -102,10 +102,10 @@ class TemplateHandler {
     }
 
     /**
-    * Move a file from one location to another
+    * Move a directory & all of its contents from one location to another
     *
-    * @param    string  $src    Source of file or directory to copy
-    * @param    string  $dst    Destination for file or directory to be copied to
+    * @param    string  $src    Source of directory to copy
+    * @param    string  $dst    Destination for directory to be copied to
     */
     function copy_directory( $src, $dst ) {
         $dir = opendir( $src );
