@@ -2,11 +2,11 @@
 /**
  * Class for converting PHP templates into static html pages and moving them to desired locations
  * 
- * @param       string  $base       Template base name to look for
- * @param       array   $variations  Specific templates to look for (optional)
- * @property    string  $base       Class variable storing template base name to look for
- * @property    array   $variations Class variable storing specific templates to look for
- * @property    array   $templates  Class variable storing strings representing all templates to process
+ * @param       string  $base           Template base name to look for
+ * @param       array   $variations     Specific templates to look for (optional)
+ * @property    string  $base           Class variable storing template base name to look for
+ * @property    array   $variations     Class variable storing specific templates to look for
+ * @property    array   $templates      Class variable storing strings representing all templates to process
  */
 
 /******************************
